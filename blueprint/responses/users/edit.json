@@ -1,0 +1,77 @@
+{
+    "data": {
+        "id": 1,
+        "name": "Joseph Becker",
+        "email": "Hester.Jacobi@yahoo.com",
+        "created_at": "2018-05-16T04:46:13+00:00",
+        "updated_at": "2018-05-16T04:46:13+00:00",
+        "roles": {
+            "data": [
+                {
+                    "id": 1,
+                    "name": "Administrator",
+                    "created_at": "2018-05-16T01:41:15+00:00",
+                    "updated_at": "2018-05-16T01:41:15+00:00",
+                    "permissions": {
+                        "data": [
+                            {
+                                "id": 1,
+                                "name": "List users",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Create users",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Delete users",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Update users",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 5,
+                                "name": "List roles",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 6,
+                                "name": "Create roles",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 7,
+                                "name": "Delete roles",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 8,
+                                "name": "Update roles",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            },
+                            {
+                                "id": 9,
+                                "name": "List permissions",
+                                "created_at": "2018-05-16T01:41:15+00:00",
+                                "updated_at": "2018-05-16T01:41:15+00:00"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

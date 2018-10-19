@@ -1,0 +1,29 @@
+## Group Authentication API
+Autentikasi merupakan gerbang utama user untuk bisa masuk kedalam dashboard.
+
+## Login User [/oauth/token]
+Endpoint ini berfungsi untuk melakukan login berdasarkan rolenya. clinet harus memasukan terlebih dahulu `client_id` yang merupakan identitas pengguna dari API, dan juga harus memasukan `client_secret` sebagai token bahwa aplikasi memiliki terhadap API yang akan di akses. dalam hal ini autentikasi menggunakan `grant_type` berupas `password`
+### Login [POST]
+
++ Request (application/json)
+
+    + Attributes (object)
+
+        :[Gist](requests/authentication/login.apib)
+
++ Response 200 (application/json)
+
+        :[Gist](responses/authentication/login.json)
+
+## Logout User [/tjsl/v1/users/logout]
+Endpoint ini berfungsi untuk melakukan logout berdasarkan user
+
+### Logout [DELETE]
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
+
++ Response 204

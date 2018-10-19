@@ -1,0 +1,89 @@
+## Group Users Microservice API
+
+## Browse Users [/tjsl/v1/users{?name,email,roles}]
+
+### Browse Users [GET]
+this Endpoint for browse list users
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
+
++ Response 200 (application/json)
+
+        :[Gist](responses/users/browse.json)
+
+## Create Users [/tjsl/v1/users]
+
+### Create Users [POST]
+this for create new user
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
+
+    + Attributes (object)
+
+        :[Gist](requests/users/create.apib)
+
++ Response 200 (application/json)
+
+        :[Gist](responses/users/create.json)
+
+## Action User [/tjsl/v1/users/{id}]
+
+### Read Single Users [GET]
+this for read single user by id
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
++ Parameters
+
+    - id: 1 (string, required) - Id of users
+
++ Response 200 (application/json)
+
+        :[Gist](responses/users/read.json)
+
+### Update User [PATCH]
+this endpoint for update user by id
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
+
+    + Attributes (object)
+
+        :[Gist](requests/users/edit.apib)
+
++ Parameters
+
+    - id: 1 (string, required) - Id of Creator type
+
++ Response 200 (application/json)
+
+        :[Gist](responses/users/edit.json)
+
+
+### Delete User [DELETE]
+this endpoint for delete user by id
+
++ Request (application/json)
+
+    + Headers
+
+            Authorization: Bearer d0efec94-cd02-4875-adff-4d9defd94363
++ Parameters
+
+    - id: 1 (string, required) - Id of User
+
++ Response 204

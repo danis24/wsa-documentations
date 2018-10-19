@@ -5,8 +5,15 @@ WSA is an application to scan a website that aims to find security holes. this i
 - Admin
 - Guests
 
-## Basic Flow
+## Environment
+- hercule
+- fury
+- apiary
 
+## Running
+`hercule blueprint/blueprint.apib -o apiary.apib && fury --validate apiary.apib && apiary preview --server --port=8090`
+
+## Basic Flow
 
 ### Explanations
 1. Admin is role for maintaining all permissions
